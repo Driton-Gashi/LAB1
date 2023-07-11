@@ -1,0 +1,23 @@
+header .header-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.left-wrapper a:not(:last-child),
+.right-wrapper a:not(:last-child) {
+  margin-right: 0.5rem;
+}
+header a {
+  color: var(--black);
+  text-decoration: none;
+}
+header a:hover {
+  color: var(--purple);
+}
+header .header-bottom .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 1rem;
+}
